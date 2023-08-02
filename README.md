@@ -1,12 +1,12 @@
-Implementation of contracts for [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) account abstraction via alternative mempool.
+# Implementation of contracts for [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337) account abstraction via alternative mempool.
 
-# Installation
+## Installation
 
 ```bash
 yarn install
 ```
 
-# Getting Started
+## Getting Started
 
 ```
 cp .env.example .env
@@ -19,24 +19,32 @@ PRIVATE_KEY @ rec create a sep account for dev
 COVERAGE=<boolean> (true or false)
 ```
 
-# Testing
+## Testing
 
 ```bash
 yarn test
 ```
 
-# Compiling
+##  Compiling
 
 ```bash
 yarn compile
 ```
 
-# Deploying
+## Deploying
 
 ```bash
 yarn deploy --network <network>
 ```
 
+## Linting
+
+```bash
+yarn lint
+yarn lint-fix
+```
+
 # Resources
 
 - [EIP-4337](https://eips.ethereum.org/EIPS/eip-4337)
+- [Goerli Etherscan](https://goerli.etherscan.io/)
